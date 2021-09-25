@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def home(request):
-    return render(request, 'foodpointMain.html')
+    return render(request, 'Main.html')
 
 def signIn(request):
     return render(request, 'signIn.html')

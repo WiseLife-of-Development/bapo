@@ -28,4 +28,5 @@ urlpatterns = [
     path('myyolo/', include('myyolo.urls')),
     path('health/', include('health.urls')),
 
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] 
+#  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
