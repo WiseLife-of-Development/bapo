@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'travel.apps.TravelConfig',
     'recruitment.apps.RecruitmentConfig',
     'health.apps.HealthConfig',
-    'myyolo.apps.MyyoloConfig'
+    'myyolo.apps.MyyoloConfig',
+    'Main.apps.MainConfig'
+
 
 ]
 
